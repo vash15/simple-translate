@@ -1,0 +1,31 @@
+{
+  "name": "simple-translate",
+  "version": "1.0.0",
+  "homepage": "https://github.com/vash15/simple-translate",
+  "authors": [
+    "Michele Belluco"
+  ],
+  "description": "Simple translate for string",
+  "main": "lib/simple-translate.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "translate"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cache-text": "~1.0.0",
+    "underscore": "~1.6.0",
+    "underscore.string": "~2.3.3"
+  }
+}
